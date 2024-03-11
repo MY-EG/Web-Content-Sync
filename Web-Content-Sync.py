@@ -11,11 +11,18 @@ except:
     from requests import get
 
 
+
+file="230202017.txt"          # Name of the local file to save the text
+
+# URL of the Google document
+# Change it to your own link
+url="https://docs.google.com/document/d/141qDqFGjuyMHyf0VVaiymR7cTFtxG-sAlaKpgfy7oCk/edit?usp=sharing"
+
+
+
 yeni = 3
 error = 3
 
-# Name of the local file to save the text
-file="230202017.txt"
 
 # Define a function to manipulate text format
 def Edit_Text(text):
@@ -29,9 +36,6 @@ def Edit_Text(text):
 
 
 
-# URL of the Google document
-# Change it to your own link
-url="https://docs.google.com/document/d/141qDqFGjuyMHyf0VVaiymR7cTFtxG-sAlaKpgfy7oCk/edit?usp=sharing"
 
 # Get the content of the Google document
 ll = get(url).text
