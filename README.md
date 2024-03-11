@@ -1,4 +1,4 @@
-# URLSync
+# WebContentSync
 
 URLSync is a Python script designed to continuously check a specified document accessible via URL for updates and save its contents locally. This script is useful for scenarios where real-time synchronization between an online document and a local file is required.
 
