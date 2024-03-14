@@ -20,7 +20,7 @@ url="https://docs.google.com/document/d/141qDqFGjuyMHyf0VVaiymR7cTFtxG-sAlaKpgfy
 
 
 
-yeni = 3
+refresh = 3
 error = 3
 
 
@@ -93,7 +93,7 @@ def main():
         else:
             index += 1
             print("no text found "+str(index))
-            sleep(yeni)
+            sleep(refresh)
 
 
 # Main loop to continuously check for updates
@@ -103,8 +103,8 @@ while True:
         
         main() # Call the function to check for updates
         
-        print("start agin after "+str(yeni))
-        sleep(yeni)
+        print("start agin after "+str(refresh))
+        sleep(refresh)
     except:
     
         print("ERROR") # Print error messages if there's an issue
