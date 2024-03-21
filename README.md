@@ -32,7 +32,7 @@ To run the script in the background without a terminal window, you can use the p
 - `url`: URL of the document to synchronize.
 - `file`: Name of the local file to save the synchronized content.
 - `start` and `end`: Markers to specify the portion of the document to synchronize.
-- `yeni`: Interval (in seconds) to wait between synchronization attempts.
+- `refresh`: Interval (in seconds) to wait between synchronization attempts.
 - `error`: Interval (in seconds) to wait before retrying after encountering an error.
 
 ## Dependencies
